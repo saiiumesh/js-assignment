@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <p>dispaying current date</p>
+
+        <p id="date"></p>
+        <script>
+            var currdate=new Date()
+            var answer= currdate.getDate()+'-'+currdate.getMonth()+'-'+currdate.getFullYear()
+
+            document.getElementById('date').innerHTML=answer
+        </script>
+    </head>
+</html>
